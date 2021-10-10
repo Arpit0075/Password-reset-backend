@@ -12,4 +12,4 @@ get "https://password-reset123.herokuapp.com/private" - user will be able to acc
 
 post "https://password-reset123.herokuapp.com/forgotPass" - allows us to initiate start of password reset process, we send email through this end point
 
-post "https://password-reset123.herokuapp.com/resetPass" - allows us to send email, new password and otp to our database and reset password
+put "https://password-reset123.herokuapp.com/resetPass" - allows us to send email, new password and otp to our database and reset password
